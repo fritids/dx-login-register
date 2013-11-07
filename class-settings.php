@@ -303,7 +303,7 @@ class Dxlore_Settings {
 					<div class="inside">
 						<div class="misc-pub-section"><b>捐赠：</b><a href="https://me.alipay.com/daxiawp" target="_blank"><img style="vertical-align:middle;" src="<?php echo plugins_url( 'donate.png', __FILE__ ); ?>"/></a></div>
 						<div class="misc-pub-section">插件介绍以及教程请<a href="http://www.daxiawp.com/dx-login-register.html" target="_blank">点击浏览</a></div>
-						<div class="misc-pub-section">您如果有好的建议或者功能需求请<a href="http://www.daxiawp.com/dx-login-register.html#respond" target="_blank">点击给我留言</a></div>
+						<div class="misc-pub-section">您如果有什么问题或者建议请<a href="http://www.daxiawp.com/dx-login-register.html#respond" target="_blank">点击给我留言</a></div>
 						<div class="misc-pub-section no-border">wordpress定制、仿站、插件开发请联系：<a target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin=1683134075&site=qq&menu=yes"><img border="0" src="http://wpa.qq.com/pa?p=2:1683134075:51&t=<?php echo time(); ?>" style="vertical-align: middle; " alt="点击这里给我发消息" title="点击这里给我发消息"/>1683134075</a></div>
 					</div>
 				</div>
