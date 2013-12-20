@@ -41,11 +41,17 @@ class Dxlore_Custom_Form {
 		$style = '<style type="text/css">';
 		if( $logo_url )
 			$style .= ".login h1 a { background-image: url($logo_url); }";
+			
 		
 		// Size
 		if( $logo_width && $logo_height ) {
 			$height = $logo_height + 4;
 			$style .= ".login h1 a { background-size: {$logo_width}px {$logo_height}px; height:{$height}px;}";
+			
+			// @since 1.0.1
+			if( version_compare( $GLOBALS['wp_version'], '3.8', '>=' ) ) {
+				$style .= ".login h1 a { width:{$logo_width}px; height: {$logo_height}px;}";
+			}
 		}
 		
 		$style .= '</style>';

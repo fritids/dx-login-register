@@ -34,6 +34,9 @@ Sign custom page content, custom password, authentication code detection, login 
 
 == Changelog ==
 
+= 1.0.1 =
+* Fix login logo size for wordpress 3.8+. 修复wordpress 3.8+ 版本的登陆页面logo大小。
+
 = 1.0.0 =
 * Sign custom page content, custom password, authentication code detection, login redirection function, etc. 自定义登录注册页面内容，自定义密码，验证码检测，登录重定向等功能。
 
