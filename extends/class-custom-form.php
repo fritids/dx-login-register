@@ -127,7 +127,8 @@ class Dxlore_Custom_Form {
 				<input type="password" name="pass_comfirm" id="pass_comfirm" class="pass" value="" size="25" /></label>
 			</p>
 			<?php if( 'yes' == $this->pass_strength && isset( $_REQUEST['action'] ) && 'register' == $_REQUEST['action'] ): ?>
-				<div id="pass-strength-result" style="display: block; margin-bottom: 15px; margin-top: -5px;"><?php _e( 'Strength indicator' ); ?></div>
+				<?php $pass_strength_width = ( version_compare( $GLOBALS['wp_version'], '3.8', '>=' ) ) ? ' width: 260px;' : ''?>
+				<div id="pass-strength-result" style="display: block; margin-bottom: 15px; margin-top: -5px;<?php echo $pass_strength_width; ?>"><?php _e( 'Strength indicator' ); ?></div>
 			<?php endif; ?>								
 		<?php
 		endif;
